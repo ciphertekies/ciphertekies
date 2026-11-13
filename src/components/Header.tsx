@@ -95,16 +95,8 @@ export const Header: React.FC = () => {
             ))}
           </nav>
 
-          {/* Action CTAs & Controls */}
+          {/* Action CTAs */}
           <div className="hidden md:flex items-center space-x-4">
-            <button
-              onClick={toggleTheme}
-              aria-label="Toggle Theme"
-              className="p-2.5 rounded-xl border border-white/10 bg-[#0f1424] text-slate-300 hover:text-cyan-400 hover:border-cyan-400/30 transition-all"
-            >
-              {isDark ? <Sun className="w-4 h-4 text-amber-300" /> : <Moon className="w-4 h-4 text-cyan-400" />}
-            </button>
-
             <a
               href="#join"
               onClick={(e) => handleSmoothScroll(e, '#join')}
@@ -120,13 +112,6 @@ export const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center space-x-2">
-            <button
-              onClick={toggleTheme}
-              aria-label="Toggle Theme"
-              className="p-2 rounded-lg border border-white/10 bg-[#0f1424] text-slate-300"
-            >
-              {isDark ? <Sun className="w-4 h-4 text-amber-300" /> : <Moon className="w-4 h-4 text-cyan-400" />}
-            </button>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle Navigation Menu"
