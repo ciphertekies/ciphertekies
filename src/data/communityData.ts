@@ -367,7 +367,7 @@ export const COMMUNITY_TEAM: TeamMember[] = [
     role: "Community Lead",
     bio: "Passionate technologist driving collaborative student innovation, open-source adoption, and ecosystem partnerships.",
     interests: ["Full-Stack", "Community Building", "Web Architecture"],
-    linkedinUrl: "https://www.linkedin.com/company/ciphertekies/posts/?feedView=all",
+    linkedinUrl: "https://www.linkedin.com/in/setumadhavani1410/",
     avatarText: "SM"
   },
   {
@@ -379,15 +379,17 @@ export const COMMUNITY_TEAM: TeamMember[] = [
     linkedinUrl: "https://www.linkedin.com/in/dhruvi-mandloi-81a5ba290/",
     avatarText: "DJ"
   },
+
   {
     id: "lead-atharv",
     name: "Atharv Ambekar",
     role: "Community Lead",
-    bio: "Full-stack developer and open-source enthusiast passionate about building modern web experiences, AI integrations, and developer ecosystems.",
-    interests: ["Full-Stack Engineering", "React & Modern Web", "AI Systems"],
+    bio: "Technology enthusiast and community builder passionate about AI, emerging technologies, modern web development, and fostering collaboration through innovative projects and open-source initiatives.",
+    interests: ["AI & ML", "Data Analytics", "Open Source Development"],
     linkedinUrl: "https://www.linkedin.com/in/atharv-ambekar-187160297/",
     avatarText: "AA"
   }
+
 ];
 
 export const SOCIAL_LINKS = {
