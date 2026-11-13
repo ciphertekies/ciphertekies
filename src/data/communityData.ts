@@ -362,31 +362,31 @@ export interface TeamMember {
 
 export const COMMUNITY_TEAM: TeamMember[] = [
   {
-    id: "lead-1",
+    id: "lead-setu",
     name: "Setu Madhavani",
-    role: "Community Lead & Founder",
+    role: "Community Lead",
     bio: "Passionate technologist driving collaborative student innovation, open-source adoption, and ecosystem partnerships.",
     interests: ["Full-Stack", "Community Building", "Web Architecture"],
     linkedinUrl: "https://www.linkedin.com/company/ciphertekies/posts/?feedView=all",
     avatarText: "SM"
   },
   {
-    id: "lead-2",
-    name: "Technical Core Team",
-    role: "Engineering & Open Source Leads",
-    bio: "Student developers and peer mentors leading project sprints, code reviews, and technical workshops across colleges.",
-    interests: ["React 19", "AI/ML", "Cloud Systems", "Cybersecurity"],
-    linkedinUrl: "https://www.linkedin.com/company/ciphertekies/posts/?feedView=all",
-    avatarText: "CT"
+    id: "lead-dhruvi",
+    name: "Dhruvi Jain",
+    role: "Community Lead",
+    bio: "Community builder and technology enthusiast spearheading impactful collaborative initiatives, mentorship tracks, and partner events.",
+    interests: ["Community Operations", "Tech Outreach", "Event Strategy"],
+    linkedinUrl: "https://www.linkedin.com/in/dhruvi-mandloi-81a5ba290/",
+    avatarText: "DJ"
   },
   {
-    id: "lead-3",
-    name: "Events & Operations",
-    role: "Programs & Community Coordinators",
-    bio: "Empowering members through impactful hack days, partner summits, and technical learning circles.",
-    interests: ["XR Collaboration", "Hackathons", "Tech Talks"],
-    linkedinUrl: "https://www.linkedin.com/company/ciphertekies/posts/?feedView=all",
-    avatarText: "EO"
+    id: "lead-atharv",
+    name: "Atharv Ambekar",
+    role: "Community Lead",
+    bio: "Full-stack developer and open-source enthusiast passionate about building modern web experiences, AI integrations, and developer ecosystems.",
+    interests: ["Full-Stack Engineering", "React & Modern Web", "AI Systems"],
+    linkedinUrl: "https://www.linkedin.com/in/atharv-ambekar-187160297/",
+    avatarText: "AA"
   }
 ];
 
