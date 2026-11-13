@@ -73,7 +73,7 @@ export const JoinCTA: React.FC = () => {
             </a>
 
             <a
-              href="https://github.com/Setumadhavani/ciphertekies"
+              href="https://github.com/ciphertekies/ciphertekies"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-sm border border-purple-400/40 bg-[#0f1424]/90 hover:bg-[#182038] text-purple-300 hover:text-white transition-all flex items-center justify-center gap-2 cursor-pointer"

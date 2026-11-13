@@ -103,7 +103,7 @@ export const Projects: React.FC = () => {
             Submit your idea or fork our starter repositories. Our community mentors will guide you through code reviews, architecture discussions, and open-source release.
           </p>
           <a
-            href="https://github.com/Setumadhavani/ciphertekies"
+            href="https://github.com/ciphertekies/ciphertekies"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl font-semibold text-xs bg-gradient-to-r from-cyan-500 to-purple-600 text-white shadow-lg"

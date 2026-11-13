@@ -266,7 +266,7 @@ export const COMMUNITY_PROJECTS: ProjectItem[] = [
     tagline: "Automated vulnerability scanner for modern web applications",
     description: "An open-source security tool that checks headers, dependency trees, and client security posture with actionable reporting.",
     techStack: ["TypeScript", "Node.js", "React", "Docker"],
-    githubUrl: "https://github.com/Setumadhavani/ciphertekies",
+    githubUrl: "https://github.com/ciphertekies/ciphertekies",
     demoUrl: "#",
     featured: true,
     category: "Open Source"
@@ -277,7 +277,7 @@ export const COMMUNITY_PROJECTS: ProjectItem[] = [
     tagline: "Interactive 3D spatial canvas for collaborative brainstorming",
     description: "Built in partnership with XR enthusiasts, offering a lightweight browser-based VR/AR spatial room for remote teams.",
     techStack: ["Three.js", "WebXR", "React", "Tailwind CSS"],
-    githubUrl: "https://github.com/Setumadhavani/ciphertekies",
+    githubUrl: "https://github.com/ciphertekies/ciphertekies",
     demoUrl: "#",
     featured: true,
     category: "Community Tool"
@@ -288,7 +288,7 @@ export const COMMUNITY_PROJECTS: ProjectItem[] = [
     tagline: "Autonomous newsletter & tech radar generator for student developers",
     description: "A collaborative open-source agent pipeline that curates emerging GitHub trends, security patches, and hackathon schedules.",
     techStack: ["Python", "FastAPI", "React 19", "LangChain"],
-    githubUrl: "https://github.com/Setumadhavani/ciphertekies",
+    githubUrl: "https://github.com/ciphertekies/ciphertekies",
     demoUrl: "#",
     featured: true,
     category: "AI / Web3"

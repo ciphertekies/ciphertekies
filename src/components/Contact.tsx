@@ -93,12 +93,12 @@ export const Contact: React.FC = () => {
                   <div className="text-xs font-mono text-cyan-400 uppercase">Code & Technical Issues</div>
                   <div className="text-sm font-semibold text-white">GitHub Issues & Discussions</div>
                   <a
-                    href="https://github.com/Setumadhavani/ciphertekies"
+                    href="https://github.com/ciphertekies/ciphertekies"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-cyan-400 hover:underline block pt-1"
                   >
-                    github.com/Setumadhavani/ciphertekies →
+                    github.com/ciphertekies/ciphertekies →
                   </a>
                 </div>
               </div>
