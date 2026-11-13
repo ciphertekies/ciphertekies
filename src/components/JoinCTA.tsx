@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, ArrowRight, GitBranch, MessageSquare, Send, CheckCircle2, Terminal } from 'lucide-react';
 import { motion } from 'framer-motion';
-import confetti from 'canvas-confetti';
 import { SOCIAL_LINKS } from '../data/communityData';
 
 export const JoinCTA: React.FC = () => {
@@ -9,11 +8,13 @@ export const JoinCTA: React.FC = () => {
   const [role, setRole] = useState('Developer / Learner');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
 
     try {
+      const confettiModule = await import('canvas-confetti');
+      const confetti = confettiModule.default || confettiModule;
       confetti({
         particleCount: 80,
         spread: 70,
@@ -21,7 +22,7 @@ export const JoinCTA: React.FC = () => {
         colors: ['#00f5ff', '#9d4edd', '#3b82f6', '#ec4899']
       });
     } catch (err) {
-      // Ignore if canvas confetti is unavailable
+      // Graceful fallback if dynamic canvas confetti is unavailable
     }
 
     setSubmitted(true);
