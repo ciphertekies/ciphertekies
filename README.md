@@ -8,7 +8,7 @@ Ciphertekies is a student-led technology community connecting developers, creato
 
 ## 🌟 Official Links & Ecosystem
 
-- **Official Website:** [https://ciphertek-hub--0fjjy53h.preview.emergentagent.com/](https://ciphertek-hub--0fjjy53h.preview.emergentagent.com/)
+- **Official Website:** [https://ciphertekies.vercel.app/](https://ciphertekies.vercel.app/)
 - **Linktree Hub:** [https://linktr.ee/ciphertekies](https://linktr.ee/ciphertekies)
 - **LinkedIn:** [https://www.linkedin.com/company/ciphertekies/posts/?feedView=all](https://www.linkedin.com/company/ciphertekies/posts/?feedView=all)
 - **Instagram:** [https://www.instagram.com/ciphertekies_/](https://www.instagram.com/ciphertekies_/)
