@@ -33,14 +33,13 @@ export const Header: React.FC = () => {
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-      const headerOffset = 70;
-      const elementPosition = targetElement.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
       });
+      window.history.pushState(null, '', href);
+    } else {
+      window.location.hash = href;
     }
 
     setIsMenuOpen(false);

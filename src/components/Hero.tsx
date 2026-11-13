@@ -7,7 +7,10 @@ export const Hero: React.FC = () => {
   const handleScrollTo = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.history.pushState(null, '', `#${id}`);
+    } else {
+      window.location.hash = `#${id}`;
     }
   };
 

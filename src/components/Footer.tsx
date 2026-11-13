@@ -7,7 +7,10 @@ export const Footer: React.FC = () => {
     e.preventDefault();
     const targetElement = document.getElementById(id);
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.history.pushState(null, '', `#${id}`);
+    } else {
+      window.location.hash = `#${id}`;
     }
   };
 
